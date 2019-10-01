@@ -1,4 +1,4 @@
-# Digital Game Design
+# Dijital Oyun Tasarımı
 Derslerde gördüğümüz uygulamaların kendimce yazılmış hallerini buradan bulabilirsiniz.
 
 ## Uygulamaları Çalıştırma 
