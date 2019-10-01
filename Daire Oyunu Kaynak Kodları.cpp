@@ -7,7 +7,7 @@
 
 int main()
 {	
-    int a, b, d;	
+    int a, b, d, k;	
 	int c[1000];
 	setlocale(LC_ALL, "Turkish"); // Türkçe şeyler
 	printf("Matematik Daire Oyun \n Oyunda N kadar karakter daire oluşturuluyor, bu ortamda 1 adet kılıç var ve 1. kişiden oyun başlıyor. \n Birinci kişi sağındaki kişiye kılıcı saplıyor ve öldürüyor ardından yanındaki ölmeyen kişiye kılıcı veriyor ve o da aynısını sağındaki kişi için yapıyor ve oyun sonda 1 kişi kalana kadar devam ediyor. \n N sayısına göre hangi sıradaki kişinin hayatta kaldığını bulalım.");
@@ -19,8 +19,14 @@ int main()
 		if (a > b) {			
 			c[i] = b;
 			
-		}else{			
-			 d = 1 + 2 * (a - c[i - 1]);
+		}else{		
+			if (i > 1) {
+				k = i - 1;
+			}
+			else {
+				k = 1;
+			}
+			d = 1 + 2 * (a - c[k]);
 			std::cout << a << " Kişi arasından kurtulacak şanslı kişi : " << d <<".Sıradaki kişi. \n\n";
 	
 			break;
