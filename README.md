@@ -13,3 +13,11 @@ Birinci kişi sağındaki kişiye kılıcı saplıyor ve öldürüyor ardından 
 
 ### Hesap Makinası
 Basit 2 sayı ile 4 işlem yapabilen hesap makinası örneği.
+
+### Piramit Oluşturma
+Yıldızları kullanarak piramit oluşturmak için kod örneği. <br>
+   *<br>
+  ***<br>
+ *****<br>
+*******<br>
+Gibi bir çıktı veriyor.
