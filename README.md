@@ -16,4 +16,4 @@ Basit 2 sayı ile 4 işlem yapabilen hesap makinası örneği.
 
 ### Piramit Oluşturma
 Yıldızları kullanarak piramit oluşturmak için kod örneği. <br>
-![Piramit](https://user-images.githubusercontent.com/6907029/66074988-3417aa80-e563-11e9-80ad-b71192f56e37.PNG =250x230)
+![Piramit](https://user-images.githubusercontent.com/6907029/66074988-3417aa80-e563-11e9-80ad-b71192f56e37.PNG)
