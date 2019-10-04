@@ -1,0 +1,17 @@
+1~5~-3308225~2~-2578~-32944
+Başlat_11053978~basla~~Başlat~~150~405~90~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Değişken_11053933~degisken~alis_Fiyati, kar, vergi, kar_Eklenmis, satis_Fiyati~~~215~360~180~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Giriş_11063831~giris~~"Ürünü alış fiyatınız:"~alis_Fiyati~280~300~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Giriş_11063862~giris~~"Kar oranınız:"~kar~345~300~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+İşlem_11071219~islem~kar_Eklenmis=alis_Fiyati+alis_Fiyati*(kar/100)~~~410~370~160~30~-65281~-1331~-12156236~Consolas~11~0~-16777216
+İşlem_11083271~islem~satis_Fiyati=kar_Eklenmis+kar_Eklenmis*(vergi/100)~~~518~370~160~30~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Çıkış_11090722~cikis~~"Sonuç....: ",satis_Fiyati~satis_Fiyati~584~300~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Giriş_11093876~giris~~"Vergi oranı:"~vergi~456~300~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+2
+Çizgi-110635~Başlat_11053978~Değişken_11053933~
+Çizgi-110709~Değişken_11053933~Giriş_11063831~
+Çizgi-110710~Giriş_11063831~Giriş_11063862~
+Çizgi-110753~Giriş_11063862~İşlem_11071219~
+Çizgi-110925~İşlem_11083271~Çıkış_11090722~
+Çizgi-110943~İşlem_11071219~Giriş_11093876~
+Çizgi-110954~Giriş_11093876~İşlem_11083271~
