@@ -7,9 +7,9 @@ using namespace std; // std:: yi sürekli koymak zorunda kalmamak için yazdýðýmýz
 
 int main()
 {
-	setlocale(LC_ALL, "Turkish");
-	printf("Hello World \n"); // Printf ile yazý
-	cout << "Merhaba Osman Bey hayat nasýl gidiyor? \n"; // Cout ile yazý 
-
+	setlocale(LC_ALL, "Turkish"); // Türkçe harflerde hata vermemesi için çalýþtýrdýðýmýz fonksiyon.
+	printf("Selam Dünya\n"); // Printf ile yazý \n alt satýra geçirir
+	cout << "Merhaba \t Dünya"; // Cout ile yazý  \t tab boþluðu býrakýr
+	
 }
 
