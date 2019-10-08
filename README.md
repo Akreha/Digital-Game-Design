@@ -22,6 +22,10 @@ Basit 2 sayı ile 4 işlem yapabilen hesap makinası örneği.
 ### Kullanıcı Girişi (Basit)
 Kullanıcı adı ve şifreyi if ve else döngüsü ile kıyaslayıp kullanıcı girişi yaptırma örneği.
 
+### Sayı Tahmin Tablosu
+Kullanıcının girdiğini sayıya göre tahmin tablosu oluşturacak kod için örnek. <br>
+Tablolardaki ilk sayıları topladığınız zaman kullanıcının tuttuğu sayıyı buluyorsunuz.
+
 ### Piramit Oluşturma
 Yıldızları kullanarak piramit oluşturmak için kod örneği. <br>
 ![Piramit](https://user-images.githubusercontent.com/6907029/66074988-3417aa80-e563-11e9-80ad-b71192f56e37.PNG)
