@@ -5,6 +5,8 @@ Derslerde gördüğümüz uygulamaların kendimce yazılmış hallerini buradan 
 Dosyaların içerisinde bulunan Release klasörlerinde projelerin bitmiş halleri bulunuyor, bu dosyalardaki projeadı.exe gibi dosyaları kullanarak kod ile uğraşmadan çalışan sürümü deneyebilirsiniz.
 
 ## Uygulamalar
+### Hello World
+Konsola merhaba dünya yazısı çıkartmak için örnek. (printf ve cout)
 
 ### Daire Oyunu
 Oyunda N kadar karakter daire oluşturuluyor, bu ortamda 1 adet kılıç var ve 1. kişiden oyun başlıyor. <br>
